@@ -4,9 +4,7 @@ import Readers.FileReader;
 import Readers.Reader;
 import Readers.URLReader;
 
-/**
- * Created by Patryk95 on 2016-09-27.
- */
+
 public class Decider {
     private String sourceAddress;
 

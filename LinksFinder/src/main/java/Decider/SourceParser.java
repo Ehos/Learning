@@ -2,9 +2,7 @@ package Decider;
 
 import java.util.regex.Pattern;
 
-/**
- * Created by Patryk95 on 2016-09-26.
- */
+
 public class SourceParser {
     private String givenSource;
 
@@ -13,7 +11,7 @@ public class SourceParser {
     }
 
     public boolean isURL(){
-        String urlRegularExpression = "(http:\\/\\/|https:\\/\\/)?www\\..+\\.[a-zA-Z]{2,3}(\\/.*)*";
+        String urlRegularExpression = "http:\\/\\/www\\..+\\.[a-zA-Z]{2,3}(\\/.*)*";
         return Pattern.matches(urlRegularExpression, givenSource);
     }
     public boolean isFilepath(){

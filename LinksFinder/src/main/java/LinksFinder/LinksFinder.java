@@ -1,16 +1,7 @@
 package LinksFinder;
 
-/**
- * Created by Patryk95 on 2016-09-26.
- */
+
 public class LinksFinder {
-
-   // private String lineOfCode;
-
-
-    public LinksFinder() {
-        //this.lineOfCode = lineOfCode;
-    }
 
     public String lookForLink(String lineOfCode){
         String link = null;

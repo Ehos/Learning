@@ -3,20 +3,14 @@ package Decider;
 import org.junit.Assert;
 import org.junit.Test;
 
-/**
- * Created by Patryk95 on 2016-09-26.
- */
+
 public class SourceParserTest {
 
     @Test
     public void givenCorrectURLShouldReturnTrue(){
-        SourceParser sourceParserWWW = new SourceParser("www.strona.com/podstrona/podstrona.html");
         SourceParser sourceParserHTTP = new SourceParser("http://www.strona.com/podstrona");
-        SourceParser sourceParserHTTPS = new SourceParser("https://www.strona.com/podstrona.html");
 
         Assert.assertTrue(sourceParserHTTP.isURL());
-        Assert.assertTrue(sourceParserHTTPS.isURL());
-        Assert.assertTrue(sourceParserWWW.isURL());
     }
 
     @Test

@@ -3,9 +3,6 @@ package LinksFinder;
 import org.junit.Assert;
 import org.junit.Test;
 
-/**
- * Created by Patryk95 on 2016-09-26.
- */
 public class LinksFinderTest {
 
     @Test

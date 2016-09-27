@@ -6,9 +6,6 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-/**
- * Created by Patryk95 on 2016-09-26.
- */
 public class URLReader extends Reader{
 
     public URLReader(String sourceAddress) {

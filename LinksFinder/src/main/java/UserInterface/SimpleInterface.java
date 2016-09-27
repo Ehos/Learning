@@ -5,9 +5,6 @@ import LinksFinder.LinksManager;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- * Created by Patryk95 on 2016-09-27.
- */
 public class SimpleInterface {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

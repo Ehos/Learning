@@ -3,9 +3,6 @@ package Readers;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 
-/**
- * Created by Patryk95 on 2016-09-26.
- */
 public class FileReader extends Reader {
 
     public FileReader(String sourceAddress) {

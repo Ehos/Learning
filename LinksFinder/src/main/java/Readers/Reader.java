@@ -4,9 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-/**
- * Created by Patryk95 on 2016-09-26.
- */
 public abstract class Reader {
     protected String sourceAddress;
 

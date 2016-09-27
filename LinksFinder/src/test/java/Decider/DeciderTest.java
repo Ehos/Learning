@@ -6,14 +6,11 @@ import Readers.URLReader;
 import org.junit.Assert;
 import org.junit.Test;
 
-/**
- * Created by Patryk95 on 2016-09-27.
- */
 public class DeciderTest {
 
     @Test
     public void shouldReturnURLReader(){
-        Decider decider = new Decider("www.strona.com/podstrona/podstrona.html");
+        Decider decider = new Decider("http://www.strona.com/podstrona/podstrona.html");
         Reader reader = decider.getReader();
 
         Assert.assertTrue(reader instanceof URLReader);
